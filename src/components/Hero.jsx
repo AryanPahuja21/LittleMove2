@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className='bg-primary h-screen'>
+    <div className='bg-primary h-[88vh]'>
       <main className='grid grid-cols-1 md:grid-cols-2 gap-5 p-24 items-center'>
         <div>
             <h1 className='text-6xl font-semibold text-white mr-10'>
@@ -18,7 +18,7 @@ const Hero = () => {
             </div>
         </div>
         <div>
-            <img src="/heroimg.png" className='w-64 mx-auto mr-24 z-20' />
+            <img src="/heroimg.png" className='w-64 mx-auto mr-14 z-20' />
         </div>
       </main>
     </div>
