@@ -11,13 +11,10 @@ const Navbar = () => {
   ];
   return (
     <>
-      <header className="sm:px-8 px-4 py-5 z-10 w-full bg-primary">
+      <header className="sm:px-8 px-4 py-5 z-10 w-full">
         <nav className="flex justify-between items-center max-container">
           <div className="flex items-center">
-          <img src="/logo.png" alt="" className="w-10"/>
-          <a href="/" className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-yellow-400 via-orange-600 to-red-700">
-            LittleMove
-          </a>
+          <img src="/navlogo.png" alt="" className="w-44"/>
           </div>
           <ul className="flex-1 flex justify-center items-center gap-16 max-lg:hidden">
             {navLinks.map((item) => (

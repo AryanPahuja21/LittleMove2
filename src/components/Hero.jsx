@@ -2,10 +2,10 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <>
-      <main className='grid grid-cols-1 md:grid-cols-2 m-24'>
+    <div className='bg-primary h-screen'>
+      <main className='grid grid-cols-1 md:grid-cols-2 gap-5 p-24 items-center'>
         <div>
-            <h1 className='text-6xl font-semibold text-primary mr-10'>
+            <h1 className='text-6xl font-semibold text-white mr-10'>
                 Revolutionize Your School Transportation with LittleMove!
             </h1>
             <p className='text-3xl text-gray-600 mt-10 font-bold mr-10'>
@@ -18,10 +18,10 @@ const Hero = () => {
             </div>
         </div>
         <div>
-            <img src="/heroimg.jpeg" alt="" />
+            <img src="/heroimg.png" className='w-64 mx-auto mr-24 z-20' />
         </div>
       </main>
-    </>
+    </div>
   )
 }
 
