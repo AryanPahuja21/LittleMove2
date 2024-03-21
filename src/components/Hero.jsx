@@ -9,10 +9,10 @@ const Hero = () => {
                 Revolutionize Your School Transportation with LittleMove!
             </h1>
             <p className='text-xl md:text-3xl text-gray-600 mt-10 font-bold md:mr-10'>
-                Launching nationwide on April 1st! Sign up for your FREE trial and experience a smoother, greener school year! Limited spots available, register today!
+                Launching nationwide on April 1st! Sign up for your <span className='text-black'>FREE</span> trial and experience a smoother, greener school year! Limited spots available, register today!
             </p>
             <div className='mt-8 md:mt-16'>
-                <button className='bg-black text-white px-8 py-3 rounded-lg font-bold'>
+                <button className='bg-black text-white px-8 py-3 rounded-lg font-bold hover:bg-gray-800'>
                 Start your free trial now
                 </button>
             </div>

@@ -21,17 +21,17 @@ const Navbar = () => {
               <li key={item.label}>
                 <a
                   href={item.href}
-                  className="font-montserrat leading-normal text-xl text-slate-gray font-bold"
+                  className="font-montserrat leading-normal text-xl text-slate-gray font-bold hover:text-primary"
                 >
                   {item.label}
                 </a>
               </li>
             ))}
-          </ul>
-          <div className="flex gap-2 text-lg leading-normal font-montserrat max-lg:hidden wide:mr-24 mr-5 font-bold">
+          </ul> 
+          <div className="flex gap-2 text-lg leading-normal font-bold font-montserrat max-lg:hidden wide:mr-24 mr-5 px-3 py-2 rounded-lg">
             <a href="/">Log in</a>
           </div>
-          <div className="flex gap-2 text-lg leading-normal font-semibold font-montserrat max-lg:hidden wide:mr-24 bg-black text-white px-3 py-2 rounded-lg">
+          <div className="flex gap-2 text-lg leading-normal font-semibold font-montserrat max-lg:hidden wide:mr-24 bg-black text-white px-3 py-2 rounded-lg hover:bg-gray-800">
             <a href="/">Sign up</a>
           </div>
           <div
